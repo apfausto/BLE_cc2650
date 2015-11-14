@@ -1,6 +1,6 @@
 # FIXED
 
-Startup/main.obj: C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/SimpleBLEPeripheral/CC26xx/Source/Application/main.c
+Startup/main.obj: ../Startup/main.c
 Startup/main.obj: C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/Error.h
 Startup/main.obj: C:/ti/xdctools_3_31_01_33_core/packages/xdc/std.h
 Startup/main.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdarg.h
@@ -165,7 +165,7 @@ Startup/main.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01
 Startup/main.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/gpio.h
 Startup/main.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_gpio.h
 
-C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/SimpleBLEPeripheral/CC26xx/Source/Application/main.c: 
+../Startup/main.c: 
 C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/Error.h: 
 C:/ti/xdctools_3_31_01_33_core/packages/xdc/std.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdarg.h: 

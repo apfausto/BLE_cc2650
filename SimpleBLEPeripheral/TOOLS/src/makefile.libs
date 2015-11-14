@@ -1,6 +1,6 @@
 #
 # This file was generated based on the configuration script:
-#     C:\Users\Fausto\CCS_workspace1\SimpleBLEPeripheral\TOOLS\appBLE.cfg
+#     C:\Users\Fausto\git\SimpleBLEPeripheral\TOOLS\appBLE.cfg
 #
 # This makefile may be included in other makefiles that need to build
 # the libraries containing the compiled source files generated as
@@ -14,7 +14,7 @@
 #
 # The absolute path to the generated source directory (at the time the
 # sources were generated) is:
-#    C:\Users\Fausto\CCS_workspace1\SimpleBLEPeripheral\TOOLS\src
+#    C:\Users\Fausto\git\SimpleBLEPeripheral\TOOLS\src
 #
 GEN_SRC_DIR ?= ../TOOLS/src
 

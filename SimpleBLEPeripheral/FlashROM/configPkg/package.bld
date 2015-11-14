@@ -11,7 +11,7 @@ var makeAssembly = false;
 var Executable = xdc.module('xdc.bld.Executable');
 
 var exeOpts = new Executable.Attrs({
-        cfgScript: 'C:/Users/Fausto/CCS_workspace1/SimpleBLEPeripheral/TOOLS/appBLE.cfg',
+        cfgScript: 'C:/Users/Fausto/git/SimpleBLEPeripheral/TOOLS/appBLE.cfg',
         profile: 'release',
         cfgHome: 'configPkg',
 });
@@ -41,7 +41,7 @@ else {
 
 var thisObj = {
     cfg:        '../TOOLS/appBLE.cfg',
-    outputPath: 'C:/Users/Fausto/CCS_workspace1/SimpleBLEPeripheral/FlashROM/configPkg',
+    outputPath: 'C:/Users/Fausto/git/SimpleBLEPeripheral/FlashROM/configPkg',
     exeName:    'appBLE' + suffix,
     exeIntName: 'appBLE' + suffix.replace('.', '_'),
     targ:       targ,

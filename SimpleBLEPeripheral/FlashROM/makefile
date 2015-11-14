@@ -183,14 +183,12 @@ SimpleBLEPeripheral.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armcl" --cmd_file="C:/ti/simplelink/ble_cc26xx_2_01_00_44423/Projects/ble/SimpleBLEPeripheral/CC26xx/CCS/SimpleBLEPeripheral/../../IAR/Application/CC2640/../../../CCS/Config/ccsCompilerDefines.bcfg"  -mv7M3 --code_state=16 --abi=eabi -me -O4 --opt_for_speed=0 -g --gcc --define=USE_ICALL --define=POWER_SAVING --define=SBP_TASK_STACK_SIZE=700 --define=GAPROLE_TASK_STACK_SIZE=520 --define=HEAPMGR_SIZE=2672 --define=TI_DRIVERS_SPI_DMA_INCLUDED --define=TI_DRIVERS_LCD_INCLUDED --define=ICALL_MAX_NUM_TASKS=3 --define=ICALL_MAX_NUM_ENTITIES=6 --define=xdc_runtime_Assert_DISABLE_ALL --define=xdc_runtime_Log_DISABLE_ALL --define=MAX_NUM_BLE_CONNS=1 --define=CC26XXWARE --define=CC26XX --define=ccs --define=DEBUG --diag_wrap=off --diag_suppress=48 --diag_warning=225 --display_error_number --gen_func_subsections=on -z -m"SimpleBLEPeripheral.map" --heap_size=0 --stack_size=256 -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include" --reread_libs --display_error_number --diag_suppress=10247-D --diag_wrap=off --warn_sections --xml_link_info="SimpleBLEPeripheral_linkInfo.xml" --rom_model --unused_section_elimination=on --compress_dwarf=on -o "SimpleBLEPeripheral.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
-	@$(MAKE) --no-print-directory post-build
 
 SimpleBLEPeripheral.hex: $(EXE_OUTPUTS)
 	@echo 'Invoking: ARM Hex Utility'
 	"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armhex"  -o "SimpleBLEPeripheral.hex" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building: $@'
 	@echo ' '
-	@$(MAKE) --no-print-directory post-build
 
 # Other Targets
 clean:
@@ -201,12 +199,8 @@ clean:
 	-@echo 'Finished clean'
 	-@echo ' '
 
-post-build:
-	-"C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/bin/armhex" -order MS --memwidth=8 --romwidth=8 --intel -o "SimpleBLEPeripheral.hex" "SimpleBLEPeripheral.out"
-	-@echo ' '
-
 .PHONY: all clean dependents
-.SECONDARY: post-build
+.SECONDARY:
 
 -include ../makefile.targets
 

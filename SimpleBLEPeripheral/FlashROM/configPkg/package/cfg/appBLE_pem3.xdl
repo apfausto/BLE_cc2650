@@ -9,8 +9,8 @@
  */
 
 
--l"C:\Users\Fausto\CCS_workspace1\SimpleBLEPeripheral\FlashROM\configPkg\package\cfg\appBLE_pem3.oem3"
--l"C:\Users\Fausto\CCS_workspace1\SimpleBLEPeripheral\TOOLS\src\sysbios\sysbios.aem3"
+-l"C:\Users\Fausto\git\SimpleBLEPeripheral\FlashROM\configPkg\package\cfg\appBLE_pem3.oem3"
+-l"C:\Users\Fausto\git\SimpleBLEPeripheral\TOOLS\src\sysbios\sysbios.aem3"
 -l"C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\targets\arm\rtsarm\lib\boot.aem3"
 -l"C:\ti\tirtos_simplelink_2_13_00_06\products\bios_6_42_00_08\packages\ti\targets\arm\rtsarm\lib\auto_init.aem3"
 

@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v5.2.5                      
 ******************************************************************************
->> Linked Sat Nov 14 12:44:38 2015
+>> Linked Sat Nov 14 16:51:57 2015
 
 OUTPUT FILE NAME:   <SimpleBLEPeripheral.out>
 ENTRY POINT SYMBOL: "ResetISR"  address: 00004a69
@@ -1307,8 +1307,8 @@ section   page    origin      length       input sections
 *          0    00000000    00000008     DSECT
                   00000000    00000008     boot.aem3 : boot.oem3 (.bootVecs)
 
-xdc.meta   0    00000000    000000f2     COPY SECTION
-                  00000000    000000f2     appBLE_pem3.oem3 (xdc.meta)
+xdc.meta   0    00000000    000000e7     COPY SECTION
+                  00000000    000000e7     appBLE_pem3.oem3 (xdc.meta)
 
 xdc.noload 
 *          0    00000000    00000000     COPY SECTION
@@ -1751,12 +1751,12 @@ UNDEFED   SHT$$INIT_ARRAY$$Limit
 000069dd  Util_startClock                                                           
 00006b15  Util_stopClock                                                            
 00000000  __ASM__                                                                   
-0000006c  __ISA__                                                                   
-0000007e  __PLAT__                                                                  
+00000061  __ISA__                                                                   
+00000073  __PLAT__                                                                  
 200043e4  __STACK_END                                                               
 00000400  __STACK_SIZE                                                              
 200043e4  __STACK_TOP                                                               
-000000a5  __TARG__                                                                  
+0000009a  __TARG__                                                                  
 000079f8  __TI_CINIT_Base                                                           
 00007a80  __TI_CINIT_Limit                                                          
 00007978  __TI_Handler_Table_Base                                                   
@@ -1768,7 +1768,7 @@ UNDEFED   SHT$$INIT_ARRAY$$Limit
 20002e54  __TI_dtors_ptr                                                            
 00007240  __TI_static_base__                                                        
 000069e9  __TI_zero_init                                                            
-000000ca  __TRDR__                                                                  
+000000bf  __TRDR__                                                                  
 000065fd  __aeabi_lmul                                                              
 00003781  __aeabi_memclr                                                            
 00003781  __aeabi_memclr4                                                           
@@ -2461,10 +2461,10 @@ address   name
 00000000  ti_sysbios_family_arm_m3_Hwi_resetVectors                                 
 00000001  xdc_runtime_Startup__EXECFXN__C                                           
 00000001  xdc_runtime_Startup__RESETFXN__C                                          
-0000006c  __ISA__                                                                   
-0000007e  __PLAT__                                                                  
-000000a5  __TARG__                                                                  
-000000ca  __TRDR__                                                                  
+00000061  __ISA__                                                                   
+00000073  __PLAT__                                                                  
+0000009a  __TARG__                                                                  
+000000bf  __TRDR__                                                                  
 00000100  ti_sysbios_knl_Task_Object__PARAMS__C                                     
 0000013c  ti_sysbios_knl_Mailbox_Object__PARAMS__C                                  
 00000170  ti_sysbios_family_arm_m3_Hwi_Object__PARAMS__C                            

@@ -1,27 +1,18 @@
 # FIXED
 
-Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/boards/SRF06EB/Board.c
-Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/boards/SRF06EB/CC2650EM_7ID/Board.h
-Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/PIN.h
-Startup/Board.obj: C:/ti/xdctools_3_31_01_33_core/packages/xdc/std.h
-Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdarg.h
-Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stddef.h
-Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/arm/elf/std.h
-Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/arm/elf/M3.h
-Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/std.h
-Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdint.h
+Startup/Board.obj: ../Startup/Board.c
+Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_memmap.h
+Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_ints.h
+Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/ioc.h
 Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdbool.h
 Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/yvals.h
 Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdarg.h
 Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/linkage.h
 Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/_lock.h
-Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stddef.h
+Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdint.h
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_types.h
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_chip_def.h
-Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/ioc.h
-Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_memmap.h
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_ioc.h
-Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_ints.h
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/interrupt.h
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_nvic.h
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/debug.h
@@ -29,9 +20,14 @@ Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_0
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/rom.h
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/gpio.h
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_gpio.h
-Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/boards/SRF06EB/CC2650EM_7ID/Board.c
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/udma.h
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_udma.h
+Startup/Board.obj: C:/ti/xdctools_3_31_01_33_core/packages/xdc/std.h
+Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdarg.h
+Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stddef.h
+Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/arm/elf/std.h
+Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/arm/elf/M3.h
+Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/std.h
 Startup/Board.obj: C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/System.h
 Startup/Board.obj: C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/xdc.h
 Startup/Board.obj: C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/Types.h
@@ -183,6 +179,9 @@ Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/p
 Startup/Board.obj: C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/Types.h
 Startup/Board.obj: C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/IModule.h
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/cc26xx/PowerCC2650.h
+Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/PIN.h
+Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stddef.h
+Startup/Board.obj: ../Startup/Board.h
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/UART.h
 Startup/Board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stddef.h
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/uart/UARTCC26XX.h
@@ -253,28 +252,19 @@ Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_0
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/m3/Hwi.h
 Startup/Board.obj: C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/knl/Semaphore.h
 
-C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/boards/SRF06EB/Board.c: 
-C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/boards/SRF06EB/CC2650EM_7ID/Board.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/PIN.h: 
-C:/ti/xdctools_3_31_01_33_core/packages/xdc/std.h: 
-C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdarg.h: 
-C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stddef.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/arm/elf/std.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/arm/elf/M3.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/std.h: 
-C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdint.h: 
+../Startup/Board.c: 
+C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_memmap.h: 
+C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_ints.h: 
+C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/ioc.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdbool.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/yvals.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdarg.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/linkage.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/_lock.h: 
-C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stddef.h: 
+C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdint.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_types.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_chip_def.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/ioc.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_memmap.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_ioc.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_ints.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/interrupt.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_nvic.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/debug.h: 
@@ -282,9 +272,14 @@ C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/c
 C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/rom.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/gpio.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_gpio.h: 
-C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/boards/SRF06EB/CC2650EM_7ID/Board.c: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/driverlib/udma.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/cc26xxware_2_21_01_15600/inc/hw_udma.h: 
+C:/ti/xdctools_3_31_01_33_core/packages/xdc/std.h: 
+C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stdarg.h: 
+C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stddef.h: 
+C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/arm/elf/std.h: 
+C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/arm/elf/M3.h: 
+C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/targets/std.h: 
 C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/System.h: 
 C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/xdc.h: 
 C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/Types.h: 
@@ -436,6 +431,9 @@ C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/
 C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/Types.h: 
 C:/ti/xdctools_3_31_01_33_core/packages/xdc/runtime/IModule.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/products/bios_6_42_00_08/packages/ti/sysbios/family/arm/cc26xx/PowerCC2650.h: 
+C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/PIN.h: 
+C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stddef.h: 
+../Startup/Board.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/UART.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.5/include/stddef.h: 
 C:/ti/tirtos_simplelink_2_13_00_06/packages/ti/drivers/uart/UARTCC26XX.h: 
